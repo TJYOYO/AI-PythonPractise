@@ -5,31 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca13bc03-6bf1-4fd0-b534-934e3585bf5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructure/ListTest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/Tuple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataStructure/dictionaries.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/MyJson.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/Open-Read.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/Read-byte.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/Write-multi-files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/exception.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/random.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/File/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StringTest/Regex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StringTest/Regex2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/GUI/MyPygame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/GUI/MyTkinter-Apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/UITest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class-method/Inherit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class-method/Polymorphism-abstractmethod.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class-method/Private-public.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class-method/classmethod.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class-method/slots.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class-method/staticmethod.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/net/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler/DS-capture-stars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler/GPT-Sample.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListTest.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.Gradio.executor": "Run",
     "Python.Inherit.executor": "Run",
     "Python.ListTest.executor": "Run",
     "Python.MyJson.executor": "Run",
@@ -102,8 +81,8 @@
       <recent name="$PROJECT_DIR$/DataStructure" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Regex2">
-    <configuration name="MyJson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.DS-capture-stars">
+    <configuration name="DS-capture-stars" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPractise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,11 +91,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/File" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawler" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/File/MyJson.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/DS-capture-stars.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Read-byte" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Gradio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonPractise" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,11 +113,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/File" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/File/Read-byte.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/Gradio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DS-capture-stars" />
+        <item itemvalue="Python.Gradio" />
         <item itemvalue="Python.Regex2" />
         <item itemvalue="Python.Regex" />
         <item itemvalue="Python.simple" />
-        <item itemvalue="Python.MyJson" />
-        <item itemvalue="Python.Read-byte" />
       </list>
     </recent_temporary>
   </component>
