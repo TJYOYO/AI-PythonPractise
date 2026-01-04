@@ -43,6 +43,6 @@ def train_model(train_loader, device):
 
 
 if __name__ == "__main__":
-    train_loader, _ = load_data('D:/datasets/train', 'D:/datasets/train')
+    train_loader, _ = load_data('D:/datasets/train', 'D:/datasets/test')
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = train_model(train_loader, device)
