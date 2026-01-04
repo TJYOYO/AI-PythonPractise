@@ -14,18 +14,19 @@ class Person:
         self.age = age
 
 
-person1 = Person("Alice", 18)
-person2 = Person("Bob", 25)
+def main():
+    person1 = Person("Alice", 18)
+    person2 = Person("Bob", 25)
 
-Person.high = "200"
-print(f"Person.high = {Person.high}")  # Class fields, if change it , all instances will be changed.
+    Person.high = "200"
+    print(f"Person.high = {Person.high}")  # Class fields, if change it , all instances will be changed.
 
-print(f"person1.name = {person1.name}")
-print(f"person1.high = {person1.high}")
+    print(f"person1.name = {person1.name}")
+    print(f"person1.high = {person1.high}")
 
-print(f"person2.age = {person2.age}")
-print(f"person2.high = {person2.high}")
+    print(f"person2.age = {person2.age}")
+    print(f"person2.high = {person2.high}")
 
 
-print(type(person1.name))
-print(type(person1))
+if __name__ == "__main__":
+    main()
